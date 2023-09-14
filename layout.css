@@ -86,6 +86,25 @@ nav ul li a {
     color: #007bff;
     text-decoration: none;
 }
+.grid {
+    display: flex;
+    flex-direction: row;
+    justify-content; space-between
+}
+
+.work-experience,
+.programming-skills {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+
+.work-experience {
+    background-color:blue;
+}
+
+    .programming-skills{
+        background-color: purple;
+    }
 
 footer {
     text-align: center;
