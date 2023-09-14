@@ -99,3 +99,6 @@ footer {
     margin-top: 20px;
     color: #666;
 }
+img.round {
+    border-radius: 50%;
+}
