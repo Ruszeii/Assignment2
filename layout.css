@@ -111,3 +111,20 @@ footer {
     margin-top: 20px;
     color: #666;
 }
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.work-experience,
+.programming-skills {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #blue; 
+}
+
+.programming-skills {
+  background-color: purple; 
+}
