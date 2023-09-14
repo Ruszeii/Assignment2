@@ -49,7 +49,7 @@ h2 {
     color: #444;
 }
 
-img {
+.rounded-image {
     max-width: 100%;
     height: auto;
 }
