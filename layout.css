@@ -128,3 +128,83 @@ footer {
 .programming-skills {
   background-color: purple; 
 }
+
+div {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+span {
+    font-weight: bold;
+    color: #333;
+    text-decoration: underline;
+}
+
+
+ul, ol {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 20px;
+}
+
+
+li {
+    margin-bottom: 8px;
+    padding-left: 10px;
+    position: relative;
+}
+
+]
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+
+form {
+    text-align: center;
+    margin: 20px;
+}
+
+
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+
+p {
+    color: #444;
+    line-height: 1.5;
+}
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+
+a:hover {
+    color: #0056b3;
+}
