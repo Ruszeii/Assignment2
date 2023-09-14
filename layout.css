@@ -1,11 +1,8 @@
-Copy code
-/* Body styles */
 body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
 }
 
-/* Form styles */
 form {
     text-align: center;
     margin: 20px;
@@ -24,7 +21,6 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-/* Navigation bar styles */
 .topnav {
     background-color: #333;
     overflow: hidden;
@@ -44,7 +40,7 @@ input[type="submit"] {
     color: black;
 }
 
-/* Header styles */
+
 h1 {
     color: #333;
 }
@@ -53,18 +49,15 @@ h2 {
     color: #444;
 }
 
-/* Image styles */
 img {
     max-width: 100%;
     height: auto;
 }
 
-/* Section header styles */
 h1 span, h2 span {
     font-weight: bold;
 }
 
-/* List and table styles */
 ul, ol {
     list-style-type: disc;
     margin-left: 20px;
@@ -85,18 +78,15 @@ th {
     background-color: #f2f2f2;
 }
 
-/* Iframe styles */
 iframe {
     border: none;
 }
 
-/* Links in navigation */
 nav ul li a {
     color: #007bff;
     text-decoration: none;
 }
 
-/* Footer styles */
 footer {
     text-align: center;
     margin-top: 20px;
