@@ -54,13 +54,31 @@ section {
     margin: 0 auto;
 }
 
+section#Work\ Experience,
+section#Programming\ Skills,
+section#General\ Interests,
+section#My\ Favorite\ Videos,
+section#Favorite\ Websites,
+section#Projects {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    box-shadow: 0px 3px 5px #888;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
 section h2 {
     color: #007bff;
     font-size: 24px;
+    margin-bottom: 20px;
 }
 
 section p {
     font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 
