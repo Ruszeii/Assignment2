@@ -41,12 +41,12 @@ input[type="submit"] {
 }
 
 h1 {
-  color: lightblue;
+  color: #ADD8E6;
   font-size: 24px;
 }
 
 h2 {
-  color: blue;
+  color: #0000FF;
 }
 
 .rounded-image {
