@@ -1,5 +1,5 @@
 body {
-  background-color: #f0f0f0;
+  background-color: gray;
   font-family: Arial, sans-serif;
 }
 
@@ -41,12 +41,12 @@ input[type="submit"] {
 }
 
 h1 {
-  color: #blue;
+  color: lightblue;
   font-size: 24px;
 }
 
 h2 {
-  color: #green;
+  color: blue;
 }
 
 .rounded-image {
