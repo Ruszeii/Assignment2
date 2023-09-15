@@ -14,8 +14,8 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-  background-color: #007bff;
-  color: #fff;
+  background-color: lightblue;
+  color: white;
   padding: 5px 10px;
   border: none;
   cursor: pointer;
@@ -36,17 +36,17 @@ input[type="submit"] {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #gray;
   color: black;
 }
 
 h1 {
-  color: #333;
+  color: #blue;
   font-size: 24px;
 }
 
 h2 {
-  color: #444;
+  color: #green;
 }
 
 .rounded-image {
