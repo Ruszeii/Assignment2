@@ -127,7 +127,12 @@ a {
 }
 
 
+
 a:hover {
     color: #0056b3;
 }
   
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  text-align: center;
