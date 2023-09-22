@@ -82,37 +82,36 @@
 
     <hr>
 
-   <div id="GeneralInterests" >
-  <h1><span>General Interests</span></h1>
-  <div class="container">
-    <table class="table table-bordered">
-      <thead>
-        <tr>
-class="bg-info text-white"
-          <th scope="col">Likes</th>
-          <th scope="col">Dislikes</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Playing Soccer</td>
-          <td>Reading</td>
-        </tr>
-        <tr>
-          <td>Skateboarding</td>
-          <td>The Cold</td>
-        </tr>
-        <tr>
-          <td>Watching Movies</td>
-          <td>Traffic</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
+   <div id="GeneralInterests" class="bg-info text-white">
+      <h1><span>General Interests</span></h1>
+      <div class="container">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Likes</th>
+              <th scope="col">Dislikes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Playing Soccer</td>
+              <td>Reading</td>
+            </tr>
+            <tr>
+              <td>Skateboarding</td>
+              <td>The Cold</td>
+            </tr>
+            <tr>
+              <td>Watching Movies</td>
+              <td>Traffic</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
     <hr>
 
-    <div id="MyFavoriteVideos">
+    <div id="MyFavoriteVideos" class="bg-primary text-white">
       <h1 class="mt-5"><span>My Favorite Videos</span></h1>
       <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item"
@@ -164,3 +163,7 @@ class="bg-info text-white"
 </body>
 
 </html>
+
+
+
+
