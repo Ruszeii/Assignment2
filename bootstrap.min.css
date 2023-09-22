@@ -8,7 +8,7 @@
 </head>
 
 <body>
-.bg-primary
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <a class="navbar-brand" href="#">Russell's Webpage</a>
@@ -82,12 +82,13 @@
 
     <hr>
 
-   <div id="GeneralInterests" class="bg-info text-white">
+   <div id="GeneralInterests" >
   <h1><span>General Interests</span></h1>
   <div class="container">
     <table class="table table-bordered">
       <thead>
         <tr>
+class="bg-info text-white"
           <th scope="col">Likes</th>
           <th scope="col">Dislikes</th>
         </tr>
