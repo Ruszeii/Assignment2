@@ -1,15 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <title>Bootstrap </title>
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Russell's Webpage</title>
+  <link rel="stylesheet" type="text/css" href="layout.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
-  
 </head>
-  <body>
-<div id="GeneralInterests">
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Russell's Webpage</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#WorkExperience">Work Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ProgrammingSkills">Programming Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#GeneralInterests">General Interests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#MyFavoriteVideos">My Favorite Videos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#FavoriteWebsites">Favorite Websites</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Projects">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <form class="mb-3">
+      <div class="form-row">
+        <div class="form-group col-md-8">
+          <input type="text" class="form-control" placeholder="Search" name="username_field">
+        </div>
+        <div class="form-group col-md-4">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </form>
+
+    <div class="header text-center">
+      <h1>Hello Class!</h1>
+      <h2>My name is Russell.</h2>
+      <p>I am a Computer Science Major with a focus on Cyber Security.</p>
+      <img class="img-fluid rounded-circle"
+        src="https://as1.ftcdn.net/v2/jpg/01/15/18/48/1000_F_115184852_DdkqZsiQytSHUOQ1fu52PvqtyyqZVsVZ.jpg"
+        alt="Russell's Image">
+    </div>
+
+    <div class="work-experience" id="WorkExperience">
+      <h1 class="mt-5"><span>Work Experience</span></h1>
+      <ul>
+        <li>Soccer Referee</li>
+        <li>Delivery Driver</li>
+        <li>Server at Restaurant</li>
+      </ul>
+    </div>
+
+    <div class="programming-skills" id="ProgrammingSkills">
+      <h1 class="mt-5"><span>Programming Skills</span></h1>
+      <ul>
+        <li>Java (well experienced)</li>
+        <li>C++ (some experience)</li>
+        <li>Python (taken in high school, experienced)</li>
+      </ul>
+    </div>
+
+    <hr>
+
+   <div id="GeneralInterests">
   <h1><span>General Interests</span></h1>
   <div class="container">
     <table class="table table-bordered">
@@ -35,10 +107,58 @@
       </tbody>
     </table>
   </div>
-</div>
-    <div>@mixin gradient-x-three-colors($start-color: $blue, $mid-color: $purple, $color-stop: 50%, $end-color: $red) {
-  background-image: linear-gradient(to right, $start-color, $mid-color $color-stop, $end-color);
-}
+
+    <hr>
+
+    <div id="MyFavoriteVideos">
+      <h1 class="mt-5"><span>My Favorite Videos</span></h1>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item"
+          src="https://www.youtube.com/embed/pildU9lK6vM"
+          allowfullscreen></iframe>
+      </div>
+
+      <div class="video-container mt-3">
+        <iframe class="embed-responsive-item"
+          src="https://www.youtube.com/embed/VyydT8dy3Hs"
+          allowfullscreen></iframe>
+      </div>
+
+      <div class="video-container mt-3">
+        <iframe class="embed-responsive-item"
+          src="https://www.youtube.com/embed/CZSWDdmxmus"
+          allowfullscreen></iframe>
+      </div>
     </div>
+
+    <div id="FavoriteWebsites">
+      <h1 class="mt-5"><span>Favorite Websites</span></h1>
+      <ul>
+        <li><a href="https://www.virustotal.com/gui/home/upload" target="_blank">This website allows you to check if
+            a file or URL contains any viruses.</a></li>
+        <li><a href="https://www.speedtest.net/" target="_blank">This website allows you to view your internet
+            speed.</a></li>
+        <li><a href="https://www.duolingo.com/" target="_blank">Use this website to learn the language of your choice
+            in a fun way.</a></li>
+      </ul>
+    </div>
+
+    <hr>
+
+    <div id="Projects">
+      <h1 class="mt-5"><span>Projects</span></h1>
+      <ul>
+        <li>Project One - Implement and Deploy a Profile Page</li>
+      </ul>
+      <img src="computer.jpeg" class="img-fluid" alt="Project Image" width="10%">
+    </div>
+  </div>
+
+  <footer>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>
